@@ -5,10 +5,12 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MauiApp1"
     Shell.FlyoutBehavior="Disabled"
-    Title="MauiApp1">
+    Shell.NavBarIsVisible="False"
+    Title="idk">
+    
 
     <ShellContent
-        Title="Home"
+        Title="NOT home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
