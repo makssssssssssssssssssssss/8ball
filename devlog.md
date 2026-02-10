@@ -33,4 +33,7 @@
 - Added the ability to remove items to the list
 - Added a failsafe where there has to be at least one button
 <img width="1507" height="785" alt="Screenshot 2026-02-10 123233" src="https://github.com/user-attachments/assets/e2a7355f-126d-4cf2-a98a-9d82ba495af2" /><img width="696" height="608" alt="Screenshot 2026-02-10 123544" src="https://github.com/user-attachments/assets/17e8df04-5fc4-45aa-831e-9b0e7f84c182" />
-
+### User Feedback  
+- Added the ability to scroll to the responsese
+- Added more base responses
+<img width="403" height="430" alt="image" src="https://github.com/user-attachments/assets/4d6f233f-ecf6-4fc5-a042-d1ed604ab00c" />
