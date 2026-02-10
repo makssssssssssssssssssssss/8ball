@@ -2,35 +2,40 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Shell.NavBarIsVisible="False"
-             x:Class="MauiApp1.MainPage">
+             x:Class="MauiApp1.MainPage"
+             Padding="0,100,0,0"
+             BackgroundColor="#FF6663">
+  
+
 
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
             <Image
-                Source="test.png"
+                Source="eightball.png"
                 HeightRequest="185"
                 Aspect="AspectFit"
                 SemanticProperties.Description="random screen shot" />
 
             <Label
-                Text="idli;r"
+                Text="Magic 8 Ball"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 
-            <Label
-                Text="HELLO &#10; This is a .NET Multi-platform App UI"
-                Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
-
             <Button
                 x:Name="CounterBtn"
-                Text="CLICK ME NOW." 
+                Text="START" 
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
-                HorizontalOptions="Fill" />
+                HorizontalOptions="Fill" /> 
+            <Button
+                x:Name="ListButton"
+                Text="List" 
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="ListButtonClicked"
+                HorizontalOptions="End"
+                VerticalOptions="End"/>
         </VerticalStackLayout>
     </ScrollView>
 

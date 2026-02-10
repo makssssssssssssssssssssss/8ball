@@ -1,0 +1,39 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiApp1"
+             x:Class="MauiApp1.ThirdPage"
+             BackgroundColor="LightGreen">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <Entry x:Name="UserInput"
+               Placeholder="Type something..."
+               FontSize="18" />
+
+        <Button Text="Add to List"
+                Clicked="OnAddClicked"
+                BackgroundColor="DarkGreen"
+                TextColor="White" />
+
+        <CollectionView ItemsSource="{x:Static local:ThirdPage.Items}"
+                        VerticalOptions="FillAndExpand">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" Margin="5" BackgroundColor="White">
+                        <HorizontalStackLayout Spacing="10">
+                            <Label Text="{Binding}" FontSize="20" VerticalOptions="Center" />
+
+                            <Button Text="Delete"
+                                    BackgroundColor="Red"
+                                    TextColor="White"
+                                    BindingContext="{Binding}"
+                                    Clicked="OnDeleteClicked" />
+                        </HorizontalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+
+</ContentPage>

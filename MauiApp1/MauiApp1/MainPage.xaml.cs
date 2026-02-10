@@ -9,17 +9,24 @@
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private async void OnCounterClicked(object sender, EventArgs e)
         {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            await Shell.Current.GoToAsync(nameof(SecondPage));
         }
+        private async void OnThirdPageClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ThirdPage());
+        }
+        private void OnBackClicked(object sender, EventArgs e)
+        {
+            Navigation.PopAsync();
+        }
+        private async void ListButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ThirdPage());
+        }
+
+
     }
 
 }
