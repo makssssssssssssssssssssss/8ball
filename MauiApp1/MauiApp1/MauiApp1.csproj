@@ -1,8 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net8.0-android;net8.0-ios;net8.0-maccatalyst</TargetFrameworks>
-    <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net8.0-windows10.0.19041.0</TargetFrameworks>
+<TargetFrameworks>net8.0-android;net8.0-ios;net8.0-maccatalyst</TargetFrameworks>
+<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">
+
+  $(TargetFrameworks);net8.0-windows10.0.19041.0
+</TargetFrameworks>
+
+
 
     <OutputType>Exe</OutputType>
     <RootNamespace>MauiApp1</RootNamespace>
@@ -10,6 +15,8 @@
     <SingleProject>true</SingleProject>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <MauiVersion>8.0.0</MauiVersion>
+
 
 		<!-- Display name -->
 		<ApplicationTitle>MauiApp1</ApplicationTitle>

@@ -20,8 +20,14 @@
          FontSize="24" 
          HorizontalOptions="Center" 
         VerticalOptions="CenterAndExpand" />
+		
+		<Button Text="Back to Main"
+        BackgroundColor="Gray"
+        TextColor="White"
+        Clicked="OnBackClicked" />
 
-    </VerticalStackLayout>
+
+	</VerticalStackLayout>
 
 </ContentPage>
 

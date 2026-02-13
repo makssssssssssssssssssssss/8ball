@@ -10,6 +10,11 @@ public partial class SecondPage : ContentPage
     {
         InitializeComponent();
     }
+    private async void OnBackClicked(object sender, EventArgs e)
+    {
+        await Navigation.PopToRootAsync();
+    }
+
 
     protected override void OnAppearing()
     {
@@ -42,7 +47,7 @@ public partial class SecondPage : ContentPage
             }
             else
             {
-                ResponseLabel.Text = "No items available!";
+                ResponseLabel.Text = "ERROR";
             }
         });
     }

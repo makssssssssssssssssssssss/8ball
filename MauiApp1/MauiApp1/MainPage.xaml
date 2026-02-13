@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Shell.NavBarIsVisible="False"
              x:Class="MauiApp1.MainPage"
-             Padding="0,100,0,0"
+             Padding="0,110,0,0"
              BackgroundColor="#FF6663">
   
 
@@ -27,6 +27,7 @@
                 x:Name="CounterBtn"
                 Text="START" 
                 SemanticProperties.Hint="Counts the number of times you click"
+				BackgroundColor="#ffffff"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" /> 
             <Button
@@ -35,6 +36,7 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="ListButtonClicked"
                 HorizontalOptions="End"
+				Margin="0,280,0,0"
                 VerticalOptions="End"/>
         </VerticalStackLayout>
     </ScrollView>

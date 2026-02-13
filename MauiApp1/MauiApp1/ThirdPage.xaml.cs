@@ -52,6 +52,11 @@ public partial class ThirdPage : ContentPage
             UserInput.Text = string.Empty;
         }
     }
+    private async void OnBackClicked(object sender, EventArgs e)
+    {
+        await Navigation.PopToRootAsync();
+    }
+
 
     private async void OnDeleteClicked(object sender, EventArgs e)
     {
