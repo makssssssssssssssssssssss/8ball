@@ -1,33 +1,38 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp1.SecondPage"
              BackgroundColor="#FF6663">
-    
 
-    <VerticalStackLayout >
+    <VerticalStackLayout>
         <Label Text="Ask Your Question..."
-               FontSize="24" 
-                Margin="75,100,0,0" />
-        <Image
-         Source="eightball.png"
-         HeightRequest="205"
-         Aspect="AspectFit"
-         Margin="0,80,0,0"
-         SemanticProperties.Description="random screen shot" />
+               FontSize="24"
+               Margin="75,100,0,0" />
+
+        <Image x:Name="EightBallImage"
+               Source="eightball.png"
+               HeightRequest="205"
+               Aspect="AspectFit"
+               Margin="0,80,0,0"
+               SemanticProperties.Description="random screen shot" />
+
         <Label x:Name="ResponseLabel"
-         Text="Your answer will appear here" 
-         FontSize="24" 
-         HorizontalOptions="Center" 
-        VerticalOptions="CenterAndExpand" />
-		
-		<Button Text="Back to Main"
-        BackgroundColor="Gray"
-        TextColor="White"
-        Clicked="OnBackClicked" />
+               Text="Your answer will appear here"
+               FontSize="24"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               Opacity="0" />
 
+        <Button x:Name="TryAgainButton"
+                Text="Try Again"
+                BackgroundColor="Gray"
+                TextColor="White"
+                IsVisible="false"
+                Clicked="TryAgainButton_Clicked" />
 
-	</VerticalStackLayout>
+        <Button Text="Back to Main"
+                BackgroundColor="Gray"
+                TextColor="White"
+                Clicked="OnBackClicked" />
+    </VerticalStackLayout>
 
 </ContentPage>
-

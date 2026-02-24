@@ -5,6 +5,8 @@ namespace MauiApp1;
 public partial class SecondPage : ContentPage
 {
     private readonly Random _random = new Random();
+    private bool hasResponded = false;
+
 
     public SecondPage()
     {
@@ -32,23 +34,42 @@ public partial class SecondPage : ContentPage
         Accelerometer.Stop();
     }
 
-    private void OnShakeDetected(object sender, EventArgs e)
+    private async void OnShakeDetected(object sender, EventArgs e)
     {
-        MainThread.BeginInvokeOnMainThread(() =>
+        if (hasResponded)
+            return;
+
+        hasResponded = true;
+
+        await MainThread.InvokeOnMainThreadAsync(async () =>
         {
-            // Make sure the list exists and has items
+            // 1. Shake animation for the 8-ball
+            await EightBallImage.RotateTo(-15, 80);
+            await EightBallImage.RotateTo(15, 80);
+            await EightBallImage.RotateTo(-10, 60);
+            await EightBallImage.RotateTo(10, 60);
+            await EightBallImage.RotateTo(0, 80);
+
+            // 2. Pick a random response (your existing logic)
             if (ThirdPage.Items != null && ThirdPage.Items.Count > 0)
             {
                 int index = _random.Next(ThirdPage.Items.Count);
-                string randomItem = ThirdPage.Items[index];
-
-                // Update the label on the page
-                ResponseLabel.Text = randomItem;
+                ResponseLabel.Text = ThirdPage.Items[index];
             }
             else
             {
                 ResponseLabel.Text = "ERROR";
             }
+
+            // 3. Fade in the response
+            await ResponseLabel.FadeTo(1, 1200);
+
+            // 4. Disable shake detection
+            Accelerometer.Stop();
+
+            // 5. Show Try Again button
+            TryAgainButton.IsVisible = true;
         });
     }
+
 }

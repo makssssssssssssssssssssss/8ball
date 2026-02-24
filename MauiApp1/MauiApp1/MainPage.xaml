@@ -27,7 +27,7 @@
                 x:Name="CounterBtn"
                 Text="START" 
                 SemanticProperties.Hint="Counts the number of times you click"
-				BackgroundColor="#ffffff"
+				BackgroundColor="DarkSlateGrey"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" /> 
             <Button
@@ -35,6 +35,7 @@
                 Text="List" 
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="ListButtonClicked"
+                BackgroundColor="DarkSlateGrey"
                 HorizontalOptions="End"
 				Margin="0,280,0,0"
                 VerticalOptions="End"/>

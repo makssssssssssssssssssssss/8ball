@@ -27,13 +27,20 @@
 - added a second button to navigate to the third page
 <img width="642" height="218" alt="Screenshot 2026-02-10 123825" src="https://github.com/user-attachments/assets/eeba6d23-a24f-4caf-9d1e-93568ec7ab82" />
 
-## 10/06/26
+## 10/02/26
 - Got the button to navigate to the Third page
 - Added the ability to add items to the List
 - Added the ability to remove items to the list
 - Added a failsafe where there has to be at least one button
+- Added an acclerometer feature where the user can shake their device and get a response from the third list
 <img width="1507" height="785" alt="Screenshot 2026-02-10 123233" src="https://github.com/user-attachments/assets/e2a7355f-126d-4cf2-a98a-9d82ba495af2" /><img width="696" height="608" alt="Screenshot 2026-02-10 123544" src="https://github.com/user-attachments/assets/17e8df04-5fc4-45aa-831e-9b0e7f84c182" />
 ### User Feedback  
 - Added the ability to scroll to the responsese
 - Added more base responses
 <img width="403" height="430" alt="image" src="https://github.com/user-attachments/assets/4d6f233f-ecf6-4fc5-a042-d1ed604ab00c" />
+## 24/02/26
+- Changed the colour of the buttons to be more appealing
+- Changed the app icon to be something more fitting
+- Updated the splash screen to be something more fitting
+- Animated the ball and the ability to get one repsonse only for then the user to try again
+
