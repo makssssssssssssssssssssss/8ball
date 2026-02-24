@@ -38,6 +38,7 @@
 - Added the ability to scroll to the responsese
 - Added more base responses
 <img width="403" height="430" alt="image" src="https://github.com/user-attachments/assets/4d6f233f-ecf6-4fc5-a042-d1ed604ab00c" />
+
 ## 24/02/26
 - Changed the colour of the buttons to be more appealing
 - Changed the app icon to be something more fitting
