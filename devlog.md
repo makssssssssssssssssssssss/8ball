@@ -37,3 +37,5 @@
 - Added the ability to scroll to the responsese
 - Added more base responses
 <img width="403" height="430" alt="image" src="https://github.com/user-attachments/assets/4d6f233f-ecf6-4fc5-a042-d1ed604ab00c" />
+<img width="456" height="672" alt="image" src="https://github.com/user-attachments/assets/38b16e80-5f01-4920-ba4c-5113dec4b41c" />
+
