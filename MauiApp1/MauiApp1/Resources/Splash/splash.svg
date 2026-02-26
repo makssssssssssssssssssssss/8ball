@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
-	<!-- Background (you can change this to match your theme) -->
+	<!-- Full black background -->
 	<rect width="1024" height="1024" fill="#000000"/>
 
 	<!-- Outer black circle -->
@@ -8,10 +8,14 @@
 	<!-- Inner white circle -->
 	<circle cx="512" cy="512" r="165" fill="white"/>
 
-	<!-- Number 8 -->
-	<text x="50%" y="57%" text-anchor="middle"
-		  font-size="200" font-family="Segoe UI, Arial, sans-serif"
-		  fill="black" font-weight="bold">
+	<!-- Centered number 8 -->
+	<text x="50%" y="52%"
+		  text-anchor="middle"
+		  dominant-baseline="middle"
+		  font-size="200"
+		  font-family="Segoe UI, Arial, sans-serif"
+		  fill="black"
+		  font-weight="bold">
 		8
 	</text>
 </svg>

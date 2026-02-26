@@ -7,16 +7,15 @@ public partial class SecondPage : ContentPage
     private readonly Random _random = new Random();
     private bool hasResponded = false;
 
-
     public SecondPage()
     {
         InitializeComponent();
     }
+
     private async void OnBackClicked(object sender, EventArgs e)
     {
         await Navigation.PopToRootAsync();
     }
-
 
     protected override void OnAppearing()
     {
@@ -50,7 +49,7 @@ public partial class SecondPage : ContentPage
             await EightBallImage.RotateTo(10, 60);
             await EightBallImage.RotateTo(0, 80);
 
-            // 2. Pick a random response (your existing logic)
+            // 2. Pick a random response
             if (ThirdPage.Items != null && ThirdPage.Items.Count > 0)
             {
                 int index = _random.Next(ThirdPage.Items.Count);
@@ -72,4 +71,18 @@ public partial class SecondPage : ContentPage
         });
     }
 
+    private async void TryAgainButton_Clicked(object sender, EventArgs e)
+    {
+        // Fade out the old response
+        await ResponseLabel.FadeTo(0, 500);
+
+        ResponseLabel.Text = "";
+        hasResponded = false;
+
+        // Re-enable shake detection
+        Accelerometer.Start(SensorSpeed.Game);
+
+        // Hide the Try Again button
+        TryAgainButton.IsVisible = false;
+    }
 }

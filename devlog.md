@@ -48,3 +48,10 @@
 - Updated the splash screen to be something more fitting
 - Animated the ball and the ability to get one repsonse only for then the user to try again
 <img width="456" height="672" alt="image" src="https://github.com/user-attachments/assets/38b16e80-5f01-4920-ba4c-5113dec4b41c" />
+
+## 25/02/26
+- Updated the app icon
+- updated the splash screen
+- Changed the position of the "Back to Main Menu" button to be more lower and less intrusive (before it was below the 8 ball where the "try again" button would be 
+- Changed the colour of a few buttons 
+- Updated the code where the list is now shared instead of being only on the third page, there was an issue where users had to go to the list first in order for it to load before they are able to go to the second page

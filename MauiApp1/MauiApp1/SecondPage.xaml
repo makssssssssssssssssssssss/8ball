@@ -30,6 +30,7 @@
                 Clicked="TryAgainButton_Clicked" />
 
         <Button Text="Back to Main"
+                Margin="0,325,350,0"
                 BackgroundColor="Gray"
                 TextColor="White"
                 Clicked="OnBackClicked" />
