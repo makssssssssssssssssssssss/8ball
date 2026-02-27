@@ -62,4 +62,6 @@
 ## 27/02/26
 - Continued bug fix
 - Changed button layouts
-- Added the ability to save responses even after the app is forcibly shut down by using JSON files 
+- Added the ability to save responses even after the app is forcibly shut down by using JSON files
+<img width="385" height="332" alt="image" src="https://github.com/user-attachments/assets/b462a695-a5fa-4f36-a7a8-97b29453d61f" />
+
