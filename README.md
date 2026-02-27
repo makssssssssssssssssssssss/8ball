@@ -6,5 +6,5 @@
 - [x] add a shaking function
 - [x] add all relevant images
 - [x] find a way to remove all of the stock .net maui stuff
-- [ ] change app icon
+- [x] change app icon
 - [x] change the app name

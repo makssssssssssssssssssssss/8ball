@@ -30,8 +30,9 @@
                 Grid.Row="2" />
 
         <!-- Scrollable List -->
-        <CollectionView ItemsSource="{x:Static local:ThirdPage.Items}"
-                        Grid.Row="3">
+        <CollectionView ItemsSource="{x:Static local:DataStore.Items}"
+                Grid.Row="3">
+
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Frame Padding="10" Margin="5" BackgroundColor="White">

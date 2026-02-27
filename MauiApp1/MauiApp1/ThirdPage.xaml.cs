@@ -44,14 +44,13 @@ public partial class ThirdPage : ContentPage
 
     private void OnAddClicked(object sender, EventArgs e)
     {
-        var text = UserInput.Text;
-
-        if (!string.IsNullOrWhiteSpace(text))
+        if (!string.IsNullOrWhiteSpace(UserInput.Text))
         {
-            Items.Add(text);
-            UserInput.Text = string.Empty;
+            DataStore.Items.Add(UserInput.Text);
+            UserInput.Text = "";
         }
     }
+
     private async void OnBackClicked(object sender, EventArgs e)
     {
         await Navigation.PopToRootAsync();
