@@ -55,3 +55,10 @@
 - Changed the position of the "Back to Main Menu" button to be more lower and less intrusive (before it was below the 8 ball where the "try again" button would be 
 - Changed the colour of a few buttons 
 - Updated the code where the list is now shared instead of being only on the third page, there was an issue where users had to go to the list first in order for it to load before they are able to go to the second page
+- <img width="487" height="567" alt="image" src="https://github.com/user-attachments/assets/52f5f8b2-4eb1-436c-bd7c-d42f9b802751" />
+- <img width="515" height="647" alt="image" src="https://github.com/user-attachments/assets/b3693eec-74ad-40d9-b0d5-75aa7c5adb61" />
+- <img width="712" height="317" alt="image" src="https://github.com/user-attachments/assets/eefc00cd-f4f5-47e1-8d4f-dc677621dd8a" />
+
+## 27/02/26
+- Continued bug fix
+- Changed button layouts
