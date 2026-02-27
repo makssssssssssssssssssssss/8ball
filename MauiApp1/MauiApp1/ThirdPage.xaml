@@ -28,6 +28,13 @@
                 BackgroundColor="DarkGreen"
                 TextColor="White"
                 Grid.Row="2" />
+        <Button Text="Reset to Default"
+        BackgroundColor="DarkRed"
+        TextColor="White"
+        Clicked="OnResetClicked"
+        Grid.Row="0"
+        Margin="60,-30,0,0" />
+
 
         <!-- Scrollable List -->
         <CollectionView ItemsSource="{x:Static local:DataStore.Items}"

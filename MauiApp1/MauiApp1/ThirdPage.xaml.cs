@@ -44,4 +44,20 @@ public partial class ThirdPage : ContentPage
 
         DataStore.Items.Remove(item);
     }
+    private async void OnResetClicked(object sender, EventArgs e)
+    {
+        bool confirm = await DisplayAlert(
+            "Reset List",
+            "Are you sure you want to restore the default Magic 8‑Ball answers?",
+            "Yes", "No");
+
+        if (!confirm)
+            return;
+
+        DataStore.ResetToDefault();
+
+        // Refresh UI binding
+        OnPropertyChanged(nameof(Items));
+    }
+
 }

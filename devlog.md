@@ -62,3 +62,4 @@
 ## 27/02/26
 - Continued bug fix
 - Changed button layouts
+- Added the ability to save responses even after the app is forcibly shut down by using JSON files 
