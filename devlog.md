@@ -66,11 +66,12 @@
 <img width="385" height="332" alt="image" src="https://github.com/user-attachments/assets/b462a695-a5fa-4f36-a7a8-97b29453d61f" />
 
 # Screenshots of the app 
-![Screenshot_20260303_120359](https://github.com/user-attachments/assets/72612d91-6dbb-4bbb-9def-7b46f21703e6)
-![Screenshot_20260303_120354](https://github.com/user-attachments/assets/44fd4d47-9e8b-4613-a4ae-0355c9d1e818)
-![Screenshot_20260303_120338](https://github.com/user-attachments/assets/14de5a87-c035-4b65-9233-6b6f9aa2b356)
-![Screenshot_20260303_120333](https://github.com/user-attachments/assets/7e2d1bef-1feb-46f0-8b33-7f6ad95de54f)
-![Screenshot_20260303_120324](https://github.com/user-attachments/assets/e85d34d2-74ec-477e-9435-0d81956dfd73)
-![Screenshot_20260303_120258](https://github.com/user-attachments/assets/1d9e1e67-e4ab-4f6d-a2aa-d99cb64ab13f)
-![Screenshot_20260303_120054](https://github.com/user-attachments/assets/e062577f-7959-4789-9780-f2a8b5a36979)
+<img width="338" height="749" alt="image" src="https://github.com/user-attachments/assets/3052dcb5-1c7c-4db5-a07b-3c5baad5908a" />
+<img width="341" height="754" alt="image" src="https://github.com/user-attachments/assets/6d964cff-8e58-4583-910d-964d327f4c53" />
+<img width="338" height="746" alt="image" src="https://github.com/user-attachments/assets/9b27c58b-86bd-4430-b9f0-4fe9dd4920b4" />
+<img width="339" height="750" alt="image" src="https://github.com/user-attachments/assets/e72ada47-1ac0-45b3-a6c9-4a7400682ea1" />
+<img width="340" height="753" alt="image" src="https://github.com/user-attachments/assets/35d27a5b-94c8-47f9-b866-9890659d9509" />
+<img width="338" height="749" alt="image" src="https://github.com/user-attachments/assets/eb6adbdb-0aa4-4bc3-aa5d-31df67b471b3" />
+
+
 
