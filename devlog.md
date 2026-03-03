@@ -65,3 +65,12 @@
 - Added the ability to save responses even after the app is forcibly shut down by using JSON files
 <img width="385" height="332" alt="image" src="https://github.com/user-attachments/assets/b462a695-a5fa-4f36-a7a8-97b29453d61f" />
 
+# Screenshots of the app 
+![Screenshot_20260303_120359](https://github.com/user-attachments/assets/72612d91-6dbb-4bbb-9def-7b46f21703e6)
+![Screenshot_20260303_120354](https://github.com/user-attachments/assets/44fd4d47-9e8b-4613-a4ae-0355c9d1e818)
+![Screenshot_20260303_120338](https://github.com/user-attachments/assets/14de5a87-c035-4b65-9233-6b6f9aa2b356)
+![Screenshot_20260303_120333](https://github.com/user-attachments/assets/7e2d1bef-1feb-46f0-8b33-7f6ad95de54f)
+![Screenshot_20260303_120324](https://github.com/user-attachments/assets/e85d34d2-74ec-477e-9435-0d81956dfd73)
+![Screenshot_20260303_120258](https://github.com/user-attachments/assets/1d9e1e67-e4ab-4f6d-a2aa-d99cb64ab13f)
+![Screenshot_20260303_120054](https://github.com/user-attachments/assets/e062577f-7959-4789-9780-f2a8b5a36979)
+
